@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: 'PT Sans Narrow', sans-serif;}
+
+
+
+.page-header{
+    background: rgb(244, 123, 102);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.page-header img{
+    padding-bottom: 20px;
+}
+
+nav a{
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 20px;
+        color:  rgb(61, 60, 60);
+        text-transform : capitalize;
+        margin-left: 20px;
+        transition: .5s;
+        display: inline-block;
+        border-bottom: 4px solid transparent;
+    }
+
+nav a:hover{
+        border-bottom: 4px solid  rgb(221, 192, 177);
+}
+
+section{
+    padding: 20px 0;
+    background-color:  rgb(221, 192, 177) ;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+.left00{
+    text-align: center;
+    background-color:rgb(61, 60, 60);
+    padding: 80px 30px;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.right00{
+    width: 20%;
+}
+
+h1{ font-weight: 200;
+    font-size: 35px;
+    color:  rgb(221, 192, 177);
+    text-transform: capitalize;
+}
+
+
+.parent{
+    display: flex;
+    gap: 50px;
+}
+
+.left{
+    background-image: url(Image/Restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.right{
+    background-color: rgb(230, 206, 191);
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px 40px 150px;
+    margin-bottom: 150px;
+}
+
+h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:rgb(67, 46, 73);
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 55px;
+    font-weight: 200;
+    color: rgb(67, 46, 73);
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    
+    
+}
+
+p{
+    font-size: 20px;
+    font-weight: 200;
+    color:rgb(67, 46, 73);
+    margin-bottom: 20px;}
+
+
+.menu-flex{
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3 - 14px);
+    background-color: rgb(244, 123, 102);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu .card .image{
+    height: 260px;
+    background-size:  cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.menu .card .image-1{
+    background-image: url(Image/Homard_jpg.JPG)
+}
+
+.menu .card .image-2{
+    background-image: url(Image/Jardin_creole.JPG);
+}
+
+.menu .card .image-3{
+    background-image: url(Image/Le_matoutou_de_crabe.jpg);
+}
+
+.menu .card .image-4{
+    background-image: url(Image/Les_fricasses.jpg);
+}
+.menu .card .image-5{
+    background-image: url(Image/Fish.jpg);
+}
+
+.menu .card .image-6{
+    background-image: url(Image/Gâteau-de-morue-630x420.jpg);
+}
+
+
+.info a{
+    color: rgb(67, 46, 73);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: bold;
+}
+.info a:hover{
+    color:rgb(221, 192, 177);
+}
+.info p{
+    margin: 20px auto 20px;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(67, 46, 73);}
+
+
+
+.reservation{ 
+    text-align: center;
+}
+
+.left01{
+    width: 30%;
+    text-align: left;
+}
+
+.right01{
+    background-color: rgb(61, 60, 60) ;
+    padding: 50px 30px; 
+    border-radius: 20px;
+    width: 70%;
+}
+
+.btn{
+    display: inline-block;
+    background:   rgb(213, 122, 120);
+    color: #333333;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0,25s;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(221, 192, 177);
+}
+
+
+.merchandises .container{
+    max-width: 1300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merch-flex{
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+}
+
+.card01{
+    width: calc(100% / 3 - 14px);
+    background-color: rgb(244, 123, 102);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.merchandises .card01 .image{
+    height: 260px;
+    background-size:  cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.merchandises .card01 .image-1{
+    background-image: url(Image/Jam_Jar.jpg)
+}
+
+.merchandises .card01 .image-2{
+    background-image: url(Image/Apron.jpg);
+}
+
+.merchandises .card01 .image-3{
+    background-image: url(Image/Cup.jpg);
+}
+
+
+
+
+.left02{
+    background-color:  rgb(61, 60, 60);
+    padding: 50px 30px; 
+    border-radius: 20px;
+    width: 75%;
+}
+
+.right02{
+    width: 25%;
+    text-align: right;
+    
+}
+.fa-facebook{
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(61, 60, 60);
+}
+.fa-youtube{
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(61, 60, 60);
+}
+.fa-twitter{
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(61, 60, 60);
+}
+.fa-instagram{
+
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(61, 60, 60);
+}
+
+h4{
+    color:  rgb(221, 192, 177);
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    }
+
+
+    @media only screen and (max-width: 992px) {
+
+        .left00{
+            padding: 60px 30px
+         }
+
+        .about .right{
+            margin-bottom: 100px;
+            padding: 30px 40px 100px;
+         }
+         h1{
+            font-size: 30px;
+         }
+         h3{
+            font-size: 45px;
+         }
+
+
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .page-header{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        nav a{
+            font-size: 15px;
+        }
+        .left00{
+            padding: 40px 30px
+         }
+
+        .about .right{
+            margin-bottom: 50px;
+            padding: 30px 40px 60px;
+         }
+
+         .parent{
+            gap: 25px;
+        }
+
+         h1{
+            font-size: 25px;
+         }
+         h3{
+            font-size: 35px;
+         }
+
+         p{
+            font-size: 17px;
+         }
+
+         .menu-flex{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .card{
+            width: calc(100% / 2 - 10px);
+            background-color: rgb(244, 123, 102);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .right01{
+            padding: 30px 30px;
+        }
+
+        .left02{
+            padding: 30px 30px;
+        }
+
+        .merch-flex{
+            gap: 15px;
+        
+        }
+        
+        .card01{
+            width: calc(100% / 3 - 10px);
+        }
+
+        .fa-facebook{
+            font-size: 20px;
+            margin-left: 10px;
+            
+        }
+        .fa-youtube{
+            font-size: 20px;
+            margin-left: 10px;
+           
+        }
+        .fa-twitter{
+            font-size: 20px;
+            margin-left: 10px;
+            
+        }
+        .fa-instagram{
+        
+            font-size: 20px;
+            margin-left: 10px;
+           
+        }
+
+    }
+
+    @media only screen and (max-width: 576px) {
+        h2{
+            font-size: 17px;
+        }
+
+    .info a{
+        font-size: 17px;
+    }
+
+
+    h3{
+    font-size: 30px;
+    }
+        .left00{
+            padding: 25px 30px;
+         }
+        .about .parent{
+            display: flex;
+            flex-direction: column;
+        }
+        .left{
+            width: 100%;
+            height : 300px;
+        }
+
+        .right{
+            width: 100%;
+        }
+        .about .right{
+            padding: 30px 40px;
+            margin-bottom: 10px;
+        }
+
+        .menu .menu-flex{
+            flex-direction: column;
+        }
+
+        .card{
+            width: 100%;
+            padding: 15px;
+
+        }
+
+        .menu .card .image {
+            margin-bottom: 10px;
+            height: 220px;
+        }
+
+        .info p{
+            margin-bottom: 10px;
+        }
+
+        .right01{
+            padding: 10px;
+            width: 50%;
+        }
+
+        .left01{
+            width: 50%;
+        }
+        
+        .parent{
+            gap: 10px;
+        }
+
+        .merchandises .merch-flex{
+            flex-direction: column;
+        }
+
+        .card01{
+            width: 100%;
+            padding: 15px;
+
+        }
+
+        .merchandises .card01 .image {
+            margin-bottom: 10px;
+            height: 270px;
+        }
+
+        .merchandises h2{
+            margin-bottom: 0px;
+        }
+        .fa-facebook{
+            font-size: 20px;
+            
+            
+        }
+        .fa-youtube{
+            font-size: 20px;
+            
+           
+        }
+        .fa-twitter{
+            font-size: 20px;
+            
+            
+        }
+        .fa-instagram{
+        
+            font-size: 20px;
+           
+           
+        }
+
+        .right02{
+            width: 30%;
+        }
+
+        .left02{
+            padding: 15px 15px;
+        }
+       
+}
